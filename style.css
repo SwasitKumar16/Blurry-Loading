@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+/* .bg {
+    background: url("https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?w=1060&t=st=1697812995~exp=1697813595~hmac=ccd79b918969b8663d7ed4aba467ffb61282c0f9f3fc06bae8e2cbde08da3c00")no-repeat center center /cover;
+     position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+
+}  */
+.bg {
+    background: url("https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?w=1060&t=st=1697812995~exp=1697813595~hmac=ccd79b918969b8663d7ed4aba467ffb61282c0f9f3fc06bae8e2cbde08da3c00") no-repeat center center/cover;
+    position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+  }
